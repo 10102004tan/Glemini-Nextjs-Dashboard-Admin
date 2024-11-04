@@ -68,6 +68,11 @@ export default function SideMenu() {
                             <span className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">Notification</span>
                         </Link>
                     </li>
+                    <li>
+                        <Link href={"/admin/manage-user"}>
+                            <span className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">Manage User</span>
+                        </Link>
+                    </li>
                 </ul>
             </div>
 
